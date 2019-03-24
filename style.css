@@ -1,0 +1,129 @@
+body{
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%232b2b2b' stroke-width='7.3' stroke-opacity='0.4'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");}
+.i{
+	width: 260px;
+    height: 260px;
+	background-image: url(images/FOTOCV2019.png);
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin-left: auto;
+    margin-right: auto
+}
+.lik{
+	width:260px;
+	height:260px;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top: 20px;
+	display:block;
+}
+
+h1{
+	font-family: "Crete Round";
+	color:#C2C1C2;
+	font-weight: normal;
+	font-size:3em;
+}
+h2{
+	font-family: "Cantarell";
+	color:#C2C1C2;
+}
+h3{
+	font-family: "Cantarell";
+	color:#C2C1C2;
+}
+h4{
+	font-family: "Cantarell";
+	color:#F9DC5C;
+}
+p{
+	font-family: "Cantarell";
+	color:#C2C1C2;
+}
+a{
+	text-decoration: none;
+	display:inline-block;
+}
+a:hover{
+	color:#C2C1C2;
+}
+.cont{
+	width: 559px;
+    height: 134px;
+	background-color:#000;
+	margin:auto;
+	display:none;
+}
+.cactive{
+	display:block;
+}
+.mcont{
+	width: 600px;
+	height: 200px;
+	background-color: #000;
+	margin:auto;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.title{
+	width:174px;
+	height:50px;
+	margin:auto;
+	text-align: center;
+	align-content: center;
+	
+}
+.title h3{
+	color:#F9DC5C;
+}
+h1{
+	color:#F9DC5C;
+}
+.c{
+	width: 370px;
+    height: 60px;
+	flex:1;
+	text-align: center
+}
+.ima{
+	width: 400px;
+	height: 200px;
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15%;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 6px;
+	border-style: solid;
+	border-color:#F9DC5C ;
+}
+.kit{
+	background-image: url('images/kit.png');
+}
+.clock{
+	background-image: url('images/clock.png');
+}
+.vari{
+	background-image: url('images/var.png');
+}
+.fpane{
+	background-image: url('images/flex.png');
+}
+.fylo{
+	background-image: url('images/kit.png');
+}
+.huddle2{
+	background-image: url('images/huddle2.png');
+}
+.huddle{
+	background-image: url('images/huddle.png');
+}
