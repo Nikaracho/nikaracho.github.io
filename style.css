@@ -19,6 +19,25 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	margin-right:auto;
 	margin-top: 20px;
 	display:block;
+	border-radius: 50%;
+}
+.lik:hover{
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	background-color: rgba(0,0,0,);
+}
+.lik p {
+	position: relative;
+	top: 140px;
+	left:21px;
+	color:black;
+	opacity: 1;
+	z-index: 3;
+}
+.lik p:hover{
+	opacity:1;
+	transition: 0.3s;
+	z-index: 3;
 }
 
 h1{
@@ -55,9 +74,15 @@ a:hover{
     height: 134px;
 	background-color:#000;
 	margin:auto;
-	display:none;
+	display:block;
 }
-.cactive{
+.cont a {
+	margin-left: 10px;
+}
+.cont p {
+	margin-left: 10px;
+}
+.cont.cactive{
 	display:block;
 }
 .mcont{
@@ -97,7 +122,7 @@ h1{
 	background-position: center; 
 	background-size: cover;
 	background-repeat: no-repeat;
-	border-radius: 15%;
+	border-radius: 2%;
 	margin-left:auto; 
 	margin-right:auto;
 	margin-top: 20px;
