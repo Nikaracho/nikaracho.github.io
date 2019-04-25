@@ -74,7 +74,7 @@ a:hover{
     height: 134px;
 	background-color:#000;
 	margin:auto;
-	display:none;
+	display:block;
 }
 .cont a {
 	margin-left: 10px;

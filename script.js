@@ -1,5 +1,5 @@
 
-const images = document.querySelectorAll('.ima');
+/*const images = document.querySelectorAll('.ima');
 const conts = document.querySelectorAll('div .cont');
 
 function change () {
@@ -7,5 +7,5 @@ function change () {
 	conts.forEach(cont => cont.classList.toggle('cactive'));
 }
 
-images.forEach(image => addEventListener('mousedown', change));
+images.forEach(image => addEventListener('mousedown', change));*/
 
