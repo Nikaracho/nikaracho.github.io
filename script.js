@@ -1,10 +1,11 @@
 
-const image = document.querySelectorAll(.ima);
+const images = document.querySelectorAll('.ima');
+const conts = document.querySelectorAll('div .cont');
 
 function change () {
-	const cont = document.querySelectorAll('.cont');
-	cont.innerHTML = '.cactive {display: block}';
+	console.log(this);
+	conts.forEach(cont => cont.classList.toggle('cactive'));
 }
 
-image.forEach(image => addEventListener('onclick', change));
+images.forEach(image => addEventListener('mousedown', change));
 

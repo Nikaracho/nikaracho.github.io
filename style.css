@@ -74,7 +74,7 @@ a:hover{
     height: 134px;
 	background-color:#000;
 	margin:auto;
-	display:block;
+	display:none;
 }
 .cont a {
 	margin-left: 10px;
@@ -82,7 +82,7 @@ a:hover{
 .cont p {
 	margin-left: 10px;
 }
-.cont.cactive{
+.cactive{
 	display:block;
 }
 .mcont{
@@ -144,7 +144,7 @@ h1{
 	background-image: url('images/flex.png');
 }
 .fylo{
-	background-image: url('images/kit.png');
+	background-image: url('images/fylo.png');
 }
 .huddle2{
 	background-image: url('images/huddle2.png');
